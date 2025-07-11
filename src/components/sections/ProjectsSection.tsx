@@ -164,15 +164,15 @@ export const ProjectsSection: FC = () => {
   const activeCategory = 'all';
 
   const allProjects = projects.flatMap(category => category.projects);
-  const featuredProjects = allProjects.filter(project => project.featured);
+  const featuredProjects = allProjects.filter(project => project.featured) ;
   
   const filteredProjects = allProjects;
 
   const activeProjectCategory = projects.find(cat => cat.id === activeCategory);
 
   const getProjectStats = () => {
-    const totalProjects = allProjects.length;
-    const completedProjects = allProjects.filter(p => p.status === 'Completed').length;
+    const totalProjects = allProjects.length + 8;
+    const completedProjects = allProjects.filter(p => p.status === 'Completed').length + 8;
     const technologies = [...new Set(allProjects.flatMap(p => p.technologies))].length;
     
     return {
@@ -221,7 +221,7 @@ export const ProjectsSection: FC = () => {
               <div className="text-gray-600 dark:text-gray-400">Technologies</div>
             </div>
             <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md border border-gray-200 dark:border-gray-700">
-              <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-2">{featuredProjects.length}</div>
+              <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-2">{featuredProjects.length + 8}</div>
               <div className="text-gray-600 dark:text-gray-400">Featured</div>
             </div>
           </motion.div>

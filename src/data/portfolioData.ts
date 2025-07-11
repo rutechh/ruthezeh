@@ -1,3 +1,5 @@
+
+import { ProfileAvatar,PrimedEHealth,QSM_INVENTORY,QSM_SPLASH,SpeakFluent } from '../assets/images';
 import type { PortfolioData, NavigationItem, SEOData } from '../types/portfolio';
 
 export const portfolioData: PortfolioData = {
@@ -9,7 +11,7 @@ export const portfolioData: PortfolioData = {
     phone: "+234 (906) 488-2273",
     location: "Lagos, Nigeria", 
     website: "https://ruth.codes",
-    avatar: "/src/assets/images/portfolio_headshot_3.JPG",
+    avatar: ProfileAvatar,
     resume: "/resume.html"
   },
 
@@ -80,12 +82,12 @@ export const portfolioData: PortfolioData = {
       description: "Building responsive and interactive user interfaces",
       skills: [
         { id: "react", name: "React", category: "frontend", level: "Expert", yearsOfExperience: 5, icon: "React" },
-        { id: "angular", name: "Angular", category: "frontend", level: "Intermediate", yearsOfExperience: 1, icon: "React" },
+        { id: "angular", name: "Angular", category: "frontend", level: "Advanced", yearsOfExperience: 5, icon: "React" },
         { id: "typescript", name: "TypeScript", category: "frontend", level: "Expert", yearsOfExperience: 5, icon: "Code" },
         { id: "javascript", name: "JavaScript", category: "frontend", level: "Expert", yearsOfExperience: 6, icon: "Code" },
-        { id: "nextjs", name: "Next.js", category: "frontend", level: "Intermediate", yearsOfExperience: 1, icon: "Code" },
+        { id: "nextjs", name: "Next.js", category: "frontend", level: "Advanced", yearsOfExperience: 3, icon: "Code" },
         { id: "tailwind", name: "Tailwind CSS", category: "frontend", level: "Advanced", yearsOfExperience: 5, icon: "Palette" },
-        { id: "chakra", name: "Chakra UI", category: "frontend", level: "Intermediate", yearsOfExperience: 1, icon: "Palette" },
+        { id: "chakra", name: "Chakra UI", category: "frontend", level: "Advanced", yearsOfExperience: 3, icon: "Palette" },
         { id: "html", name: "HTML5", category: "frontend", level: "Expert", yearsOfExperience: 6, icon: "Code" },
         { id: "css", name: "CSS3", category: "frontend", level: "Expert", yearsOfExperience: 6, icon: "Palette" }
       ]
@@ -99,9 +101,9 @@ export const portfolioData: PortfolioData = {
         // { id: "python", name: "Python", category: "backend", level: "Advanced", yearsOfExperience: 4, icon: "Code" },
         // { id: "java", name: "Java", category: "backend", level: "Advanced", yearsOfExperience: 3, icon: "Code" },
         // { id: "express", name: "Express.js", category: "backend", level: "Expert", yearsOfExperience: 5, icon: "Server" },
-        { id: "nestjs", name: "NestJS", category: "backend", level: "Intermediate", yearsOfExperience: 1, icon: "Server" },
+        { id: "nestjs", name: "NestJS", category: "backend", level: "Advanced", yearsOfExperience: 3, icon: "Server" },
         // { id: "graphql", name: "GraphQL", category: "backend", level: "Advanced", yearsOfExperience: 3, icon: "Network" },
-        { id: "rest", name: "REST APIs", category: "backend", level: "Intermediate", yearsOfExperience: 1, icon: "Network" }
+        { id: "rest", name: "REST APIs", category: "backend", level: "Advanced", yearsOfExperience: 3, icon: "Network" }
       ]
     },
     {
@@ -109,10 +111,10 @@ export const portfolioData: PortfolioData = {
       name: "Database & Storage",
       description: "Data modeling and database management",
       skills: [
-        { id: "postgresql", name: "PostgreSQL", category: "database", level: "Intermediate", yearsOfExperience: 1, icon: "Database" },
+        { id: "postgresql", name: "PostgreSQL", category: "database", level: "Advanced", yearsOfExperience: 3, icon: "Database" },
         // { id: "mongodb", name: "MongoDB", category: "database", level: "Advanced", yearsOfExperience: 3, icon: "Database" },
-        // { id: "redis", name: "Redis", category: "database", level: "Intermediate", yearsOfExperience: 2, icon: "Database" },
-        { id: "mysql", name: "MySQL", category: "database", level: "Intermediate", yearsOfExperience: 1, icon: "Database" }
+        // { id: "redis", name: "Redis", category: "database", level: "Advanced", yearsOfExperience: 2, icon: "Database" },
+        { id: "mysql", name: "MySQL", category: "database", level: "Advanced", yearsOfExperience: 3, icon: "Database" }
       ]
     },
     {
@@ -124,7 +126,7 @@ export const portfolioData: PortfolioData = {
         // { id: "docker", name: "Docker", category: "cloud", level: "Advanced", yearsOfExperience: 3, icon: "Container" },
         // { id: "kubernetes", name: "Kubernetes", category: "cloud", level: "Intermediate", yearsOfExperience: 2, icon: "Container" },
         // { id: "terraform", name: "Terraform", category: "cloud", level: "Intermediate", yearsOfExperience: 2, icon: "Settings" },
-        { id: "cicd", name: "CI/CD", category: "cloud", level: "Intermediate", yearsOfExperience: 1, icon: "GitBranch" }
+        { id: "cicd", name: "CI/CD", category: "cloud", level: "Advanced", yearsOfExperience: 3, icon: "GitBranch" }
       ]
     },
     {
@@ -247,7 +249,7 @@ export const portfolioData: PortfolioData = {
             "Created flexible pricing engine with rule builder",
             "Implemented Elasticsearch for fast search"
           ],
-          images: ["/src/assets/images/speak_fluent.jpeg"],
+          images: [SpeakFluent],
           demoUrl: "https://www.speakfluent.ca/",
           sourceUrl: "",
           category: "web-apps",
@@ -269,7 +271,7 @@ export const portfolioData: PortfolioData = {
             "Order tracking and management",
             "Mobile-responsive design"
           ],
-          images: ["/src/assets/images/qsm_splash.png", "/src/assets/images/qsm_inventory.png"],
+          images: [QSM_SPLASH, QSM_INVENTORY],
           demoUrl: "https://app.qsmfulfillment.com/user/login",
           sourceUrl: "",
           category: "web-apps",
@@ -292,7 +294,7 @@ export const portfolioData: PortfolioData = {
             "Progress analytics",
             "Mobile-responsive design"
           ],
-          images: ["/src/assets/images/primede-health.jpeg"],
+          images: [PrimedEHealth],
           demoUrl: "https://primedehealth.com/",
           sourceUrl: "",
           category: "web-apps",
