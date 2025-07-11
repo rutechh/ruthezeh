@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruth Ezeh - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            color: #2563eb;
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .header p {
+            margin: 5px 0;
+            font-size: 1.1em;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            color: #2563eb;
+            border-bottom: 1px solid #e5e7eb;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .experience, .education {
+            margin-bottom: 20px;
+        }
+        .experience h3, .education h3 {
+            color: #374151;
+            margin-bottom: 5px;
+        }
+        .experience .company, .education .institution {
+            font-weight: bold;
+            color: #6b7280;
+        }
+        .experience .date, .education .date {
+            color: #9ca3af;
+            font-style: italic;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-tag {
+            background: #eff6ff;
+            color: #2563eb;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        ul {
+            margin: 10px 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .contact-item {
+            color: #6b7280;
+        }
+        @media print {
+            body {
+                font-size: 12pt;
+            }
+            .header h1 {
+                font-size: 24pt;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Ruth Ezeh</h1>
+        <p>Senior Software Engineer</p>
+        <div class="contact-info">
+            <span class="contact-item">📧 ruth.codes@gmail.com</span>
+            <span class="contact-item">📱 +234 (906) 488-2273</span>
+            <span class="contact-item">📍 Lagos, Nigeria</span>
+            <span class="contact-item">🌐 ruth.codes</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Professional Summary</h2>
+        <p>Passionate software engineer with 5+ years of experience building scalable web applications and distributed systems. I specialize in React, TypeScript and Next.js, with a strong focus on clean code, performance optimization, and user experience.</p>
+    </div>
+
+    <div class="section">
+        <h2>Technical Skills</h2>
+        <div class="skills">
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Angular</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Next.js</span>
+            <span class="skill-tag">Tailwind CSS</span>
+            <span class="skill-tag">Chakra UI</span>
+            <span class="skill-tag">NestJS</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">Jest</span>
+            <span class="skill-tag">Cypress</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Professional Experience</h2>
+        
+        <div class="experience">
+            <h3>Senior Software Engineer</h3>
+            <div class="company">Todo Toronto</div>
+            <div class="date">August 2024 - Present</div>
+            <ul>
+                <li>Contributed to development of a multi tenant application for a booking and invoicing system</li>
+                <li>Designed and built multi tenant application for a booking an invoicing system</li>
+                <li>Designed and built real-time notification system</li>
+            </ul>
+        </div>
+
+        <div class="experience">
+            <h3>Software Engineer</h3>
+            <div class="company">Mojec International</div>
+            <div class="date">August 2022 - July 2024</div>
+            <ul>
+                <li>Developed and maintained multiple client-facing applications using modern web technologies</li>
+                <li>Built 8 production applications from scratch using React and Angular</li>
+                <li>Improved application performance by 60% through code optimization</li>
+                <li>Collaborated with UX team to increase user engagement by 45%</li>
+            </ul>
+        </div>
+
+        <div class="experience">
+            <h3>Junior Software Developer</h3>
+            <div class="company">Pharez Technologies</div>
+            <div class="date">June 2021 - July 2022</div>
+            <ul>
+                <li>Started as an intern and quickly became a full-time developer</li>
+                <li>Developed responsive frontend components</li>
+                <li>Built a web application for a client to manage their expenses and income</li>
+                <li>Worked on various features while learning modern development practices</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <div class="education">
+            <h3>Bachelor of Science in Computer Science</h3>
+            <div class="institution">University of Lagos</div>
+            <div class="date">2020</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Key Projects</h2>
+        <ul>
+            <li><strong>Soap Notes (Speak Fluent):</strong> Comprehensive SOAP Notes platform with booking and invoicing system built with React, Next.js, and PostgreSQL. Features user authentication and admin dashboard.</li>
+            <li><strong>Quality Signs and Marquee:</strong> Movie poster company website with admin dashboard for order processing and management. Built with React and Tailwind CSS.</li>
+            <li><strong>Primed E-Health:</strong> Smart Clinic Hospital Management Solution designed to facilitate day-to-day operations of healthcare organizations. Built with React and TypeScript.</li>
+            <li><strong>Portfolio Website:</strong> Modern responsive portfolio website with TypeScript, React and Tailwind CSS featuring dark/light themes and contact form integration.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Certifications</h2>
+        <ul>
+            <li>React Developer - Udemy (2021)</li>
+            <li>Angular Developer - Udemy (2022)</li>
+        </ul>
+    </div>
+</body>
+</html> 

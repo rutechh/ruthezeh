@@ -1,0 +1,11 @@
+export { Icon } from './Icon';
+export { Header } from './Header';
+export { Footer } from './Footer';
+export { Layout } from './Layout';
+export { ThemeToggle } from './ThemeToggle';
+export { HeroSection } from './sections/HeroSection';
+export { AboutSection } from './sections/AboutSection';
+export { SkillsSection } from './sections/SkillsSection';
+export { ExperienceSection } from './sections/ExperienceSection';
+export { ProjectsSection } from './sections/ProjectsSection';
+export { ContactSection } from './sections/ContactSection'; 
