@@ -62,7 +62,7 @@ export const AboutSection: FC = () => {
                       <Icon name="Calendar" size={18} className="text-primary-600 dark:text-primary-400 sm:w-6 sm:h-6" />
                     </div>
                     <div>
-                      <div className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white">6+</div>
+                      <div className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white">5+</div>
                       <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400">Years Experience</div>
                     </div>
                   </div>
@@ -74,7 +74,7 @@ export const AboutSection: FC = () => {
                       <Icon name="Code" size={18} className="text-purple-600 dark:text-purple-400 sm:w-6 sm:h-6" />
                     </div>
                     <div>
-                      <div className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white">50+</div>
+                      <div className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white">11+</div>
                       <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400">Projects</div>
                     </div>
                   </div>

@@ -144,7 +144,7 @@ export const HeroSection: FC = () => {
               >
                 <div className="flex items-center space-x-1 sm:space-x-2">
                   <Icon name="Code" size={16} className="text-primary-600 sm:w-5 sm:h-5" />
-                  <span className="text-xs sm:text-sm font-medium text-gray-900 dark:text-gray-100">6+ Years</span>
+                  <span className="text-xs sm:text-sm font-medium text-gray-900 dark:text-gray-100">5+ Years</span>
                 </div>
               </motion.div>
 

@@ -84,12 +84,12 @@ export const portfolioData: PortfolioData = {
         { id: "react", name: "React", category: "frontend", level: "Expert", yearsOfExperience: 5, icon: "React" },
         { id: "angular", name: "Angular", category: "frontend", level: "Advanced", yearsOfExperience: 5, icon: "React" },
         { id: "typescript", name: "TypeScript", category: "frontend", level: "Expert", yearsOfExperience: 5, icon: "Code" },
-        { id: "javascript", name: "JavaScript", category: "frontend", level: "Expert", yearsOfExperience: 6, icon: "Code" },
+        { id: "javascript", name: "JavaScript", category: "frontend", level: "Expert", yearsOfExperience: 5, icon: "Code" },
         { id: "nextjs", name: "Next.js", category: "frontend", level: "Advanced", yearsOfExperience: 3, icon: "Code" },
         { id: "tailwind", name: "Tailwind CSS", category: "frontend", level: "Advanced", yearsOfExperience: 5, icon: "Palette" },
         { id: "chakra", name: "Chakra UI", category: "frontend", level: "Advanced", yearsOfExperience: 3, icon: "Palette" },
-        { id: "html", name: "HTML5", category: "frontend", level: "Expert", yearsOfExperience: 6, icon: "Code" },
-        { id: "css", name: "CSS3", category: "frontend", level: "Expert", yearsOfExperience: 6, icon: "Palette" }
+        { id: "html", name: "HTML5", category: "frontend", level: "Expert", yearsOfExperience: 5, icon: "Code" },
+        { id: "css", name: "CSS3", category: "frontend", level: "Expert", yearsOfExperience: 5, icon: "Palette" }
       ]
     },
     {
@@ -134,7 +134,7 @@ export const portfolioData: PortfolioData = {
       name: "Tools & Methodologies",
       description: "Development tools and practices",
       skills: [
-        { id: "git", name: "Git", category: "tools", level: "Expert", yearsOfExperience: 6, icon: "GitBranch" },
+        { id: "git", name: "Git", category: "tools", level: "Expert", yearsOfExperience: 5, icon: "GitBranch" },
         { id: "agile", name: "Agile/Scrum", category: "tools", level: "Advanced", yearsOfExperience: 5, icon: "Users" },
         { id: "testing", name: "Testing (Jest, Cypress)", category: "tools", level: "Intermediate", yearsOfExperience: 2, icon: "CheckCircle" },
         { id: "figma", name: "Figma", category: "tools", level: "Intermediate", yearsOfExperience: 5, icon: "Figma" }
@@ -167,7 +167,7 @@ export const portfolioData: PortfolioData = {
       company: "Mojec International",
       position: "Software Engineer",
       location: "Lagos, Nigeria",
-      startDate: "2022-08",
+      startDate: "2021-08",
       endDate: "2024-07",
       description: "Developed and maintained multiple client-facing applications using modern web technologies. Collaborated with design and product teams to deliver exceptional user experiences.",
       achievements: [
@@ -185,8 +185,8 @@ export const portfolioData: PortfolioData = {
       company: "Pharez Technologies",
       position: "Junior Software Developer",
       location: "Lagos, Nigeria",
-      startDate: "2021-06",
-      endDate: "2022-07",
+      startDate: "2020-06",
+      endDate: "2021-07",
       description: "Started as an intern and quickly became a full-time developer. Worked on various features for the company's main product while learning modern development practices.",
       achievements: [
         "Developed responsive frontend components",
@@ -254,8 +254,8 @@ export const portfolioData: PortfolioData = {
           sourceUrl: "",
           category: "web-apps",
           status: "Completed",
-          startDate: "2023-01",
-          endDate: "2023-06",
+          startDate: "2025",
+          // endDate: "2025",
           teamSize: 4,
           role: "Full Stack Developer",
           featured: true
@@ -276,8 +276,8 @@ export const portfolioData: PortfolioData = {
           sourceUrl: "",
           category: "web-apps",
           status: "Completed",
-          startDate: "2022-08",
-          endDate: "2022-11",
+          startDate: "2024",
+          // endDate: "2024-11",
           teamSize: 2,
           role: "Lead Developer",
           featured: true
@@ -299,8 +299,8 @@ export const portfolioData: PortfolioData = {
           sourceUrl: "",
           category: "web-apps",
           status: "Completed",
-          startDate: "2022-03",
-          endDate: "2022-07",
+          startDate: "2023",
+          // endDate: "2024-07",
           teamSize: 3,
           featured: false
         }
